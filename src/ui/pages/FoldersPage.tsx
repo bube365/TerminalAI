@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
 import FolderCard from "../component/Overview/FolderCard.tsx";
 
 const FoldersPage: React.FC = () => {

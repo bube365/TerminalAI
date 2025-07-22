@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChevronDown, Upload, Mic, Send, Plus, ArrowRight } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import FileUpload from "../component/Chat/FileUpload.tsx";
 import ChatContent from "../component/Chat/ChatContent.tsx";
 import AudioWalkthrough from "../component/Chat/Audiowalkthrough.tsx";

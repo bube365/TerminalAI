@@ -16,7 +16,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({
 }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
-  const [totalDuration, setTotalDuration] = useState(523); // 08:43 in seconds
+  const totalDuration = 523; // 08:43 in seconds
   const progressRef = useRef<HTMLDivElement>(null);
 
   // Convert seconds to MM:SS format
